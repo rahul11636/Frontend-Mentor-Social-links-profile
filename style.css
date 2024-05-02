@@ -1,0 +1,149 @@
+/* Layout */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 375px) {
+    /* Styles for mobile screens */
+    /* Example: .container { width: 100%; } */
+  }
+  
+  @media only screen and (min-width: 376px) and (max-width: 1440px) {
+    /* Styles for screens between 375px and 1440px */
+  }
+  
+  @media only screen and (min-width: 1441px) {
+    /* Styles for desktop screens */
+  }
+  
+  /* Colors */
+  :root {
+    --primary-green: hsl(75, 94%, 57%);
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-grey: hsl(0, 0%, 20%);
+    --neutral-dark-grey: hsl(0, 0%, 12%);
+    --neutral-off-black: hsl(0, 0%, 8%);
+  }
+  
+  /* Typography */
+  body {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+  }
+  
+  /* Additional styles */
+  a {
+    color: var(--primary-green);
+    text-decoration: none;
+  }
+  
+  /* You can add more styles as needed */
+
+  .main-container{
+    width: 100vw;
+    height: 100vh;
+    background-color:var(--neutral-off-black) ;
+    padding: 100px;
+  }
+  .child-class{
+    width: 25vw;
+    height: 70vh;
+    border-radius: 10px;
+    margin: auto;
+    background-color: var(--neutral-dark-grey);
+  }
+  
+  .logo-pic{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .logo-pic img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-top: 25px;
+  }
+  .user-details{
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .user-details h2{
+    margin-top: 30px;
+    color: var(--neutral-white);
+  }
+  .user-details h5{
+    margin-top: 5px;
+    color: var(--primary-green);
+  }
+  .user-details h4{
+    font-size: 10px;
+    margin-top: 15px;
+    color: var(--neutral-white);
+    font-weight: 100;
+  }
+
+  .user-socialmedia{
+    width: 20vw;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .user-socialmedia .GitHub{
+    width: 20vw;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--neutral-grey);
+    color:  white;
+    margin: 5px;
+    
+  }
+  .user-socialmedia .Frontend_Mentor{
+    width: 20vw;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--neutral-grey);
+    color:  white;
+    margin: 5px;
+    padding: 10px;
+  }
+  .user-socialmedia .LinkedIn{
+    width: 20vw;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--neutral-grey);
+    color:  white;
+    margin: 5px;
+    padding: 10px;
+  }
+  .user-socialmedia .Twitter{
+    width: 20vw;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--neutral-grey);
+    color:  white;
+    margin: 5px;
+    padding: 10px;
+  }
+  .user-socialmedia .Instagram{
+    width: 20vw;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--neutral-grey);
+    color:  white;
+    margin: 5px;
+    padding: 10px;
+  }
